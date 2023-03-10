@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container-black {
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  min-height: 25vh;
+  padding: 10px;
+  font-family: 'Roboto';
+  background-color: #000000;
+  background-size: cover;
+}
+.container-white {
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  min-height: 25vh;
+  padding: 10px;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  background-size: cover;
+}
+.head-black {
+  color: #000000;
+  font-size: 25px;
+}
+.head-white {
+  color: #ffffff;
+  font-size: 25px;
+}
+button {
+  width: 85px;
+  height: 30px;
+  border: 1px solid #000000;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
